@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .landing-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+  
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    margin: 20px 0;
+  }
+  
+  .intro {
+    margin-bottom: 40px;
+  }
+  
+  .intro h2{
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .intro p, .features ul {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  
