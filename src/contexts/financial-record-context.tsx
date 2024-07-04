@@ -34,7 +34,8 @@ export const FinancialRecordsProvider = ({
     if (!user) return;
     const response = await fetch(
       //  `http://localhost:3001/financial-records/getAllByUserID/${user.id}`
-      `https://expenso-server-1.onrender.com/financial-records/getAllByUserID/${user.id}`
+      //`https://expenso-server-1.onrender.com/financial-records/getAllByUserID/${user.id}`
+      `https://expenso-server-six.vercel.app/financial-records/getAllByUserID/${user.id}`
     );
 
     if (response.ok) {
